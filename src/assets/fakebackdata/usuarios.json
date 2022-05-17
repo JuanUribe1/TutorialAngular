@@ -1,0 +1,20 @@
+[
+    {
+        "usuario": "HenryG", 
+        "nombre": "Henry", 
+        "apellido": "Garcia", 
+        "sexo": "M"
+    },
+    {
+        "usuario": "FabioB", 
+        "nombre": "Fabio", 
+        "apellido": "Balanta", 
+        "sexo": "M"
+    },
+    {
+        "usuario": "JuanU", 
+        "nombre": "Juan", 
+        "apellido": "Uribe", 
+        "sexo": "M"
+    }
+]

@@ -1,0 +1,21 @@
+
+<div id="contenidito">
+  <mat-progress-bar *ngIf="loading" mode="buffer"></mat-progress-bar>
+    <div *ngIf="!loading" id="login">
+        <img src="../../assets/img/user.png" alt="imagen usuario" height="30%">
+        <h1>login</h1>
+        <form [formGroup]="formUno" (ngSubmit)="ingresar()">
+            <mat-form-field class="" appearance="fill">
+              <mat-label>Username</mat-label>
+              <input matInput placeholder="" value="" autocomplete="off" formControlName="usuario">
+            </mat-form-field>
+            <br>
+            <mat-form-field class="" appearance="fill">
+                <mat-label>Password</mat-label>
+                <input matInput placeholder="" type="password" autocomplete="off" formControlName="password">
+              </mat-form-field>
+              <br>
+            <button type="submit" mat-raised-button color="primary" [disabled]="formUno.invalid">Login</button>
+          </form>
+    </div>
+</div>

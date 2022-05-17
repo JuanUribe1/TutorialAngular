@@ -1,0 +1,20 @@
+table {
+    width: 100%;
+    margin-top: 4px;
+  }
+th{
+  width: 20%;
+}
+.pointer{
+  cursor: pointer;
+}
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+mat-label{
+  color: #c2185b;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
